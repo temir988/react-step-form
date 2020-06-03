@@ -27,7 +27,7 @@ export class FormUserDetails extends Component {
           <TextField
             hintText="Enter Your Last Name"
             floatingLabelText="Last Name"
-            onChange={handleChange("LastName")}
+            onChange={handleChange("lastName")}
             defaultValue={values.lastName}
           />
           <br />
@@ -51,9 +51,7 @@ export class FormUserDetails extends Component {
 }
 
 const styles = {
-  button: {
-    margin: 15,
-  },
+  button: "margin: 15",
 };
 
 export default FormUserDetails;
