@@ -41,7 +41,6 @@ export class FormUserDetails extends Component {
           <RaisedButton
             label="Continue"
             primary={true}
-            styles={styles.button}
             onClick={this.continue}
           />
         </React.Fragment>
@@ -49,9 +48,5 @@ export class FormUserDetails extends Component {
     );
   }
 }
-
-const styles = {
-  button: "margin: 15",
-};
 
 export default FormUserDetails;

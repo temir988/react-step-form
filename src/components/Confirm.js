@@ -37,23 +37,13 @@ export class FormUserDetails extends Component {
           <RaisedButton
             label="Continue"
             primary={true}
-            styles={styles.button}
             onClick={this.continue}
           />
-          <RaisedButton
-            label="Back"
-            primary={false}
-            styles={styles.button}
-            onClick={this.back}
-          />
+          <RaisedButton label="Back" primary={false} onClick={this.back} />
         </React.Fragment>
       </MuiThemeProvider>
     );
   }
 }
-
-const styles = {
-  button: "margin: 15",
-};
 
 export default FormUserDetails;
